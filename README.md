@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @prasangeet
+- 👋 Hi, I’m Prasangeet
 - 👀 I’m interested in App Development, Web development, ML, DL, and DevOps
 - 🌱 I’m currently learning Development, MLOps
 - 📫 How to reach me https://www.linkedin.com/in/prasangeetdongre01
