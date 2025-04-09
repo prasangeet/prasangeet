@@ -97,6 +97,6 @@
 
 ### 🐍 GitHub Contribution Snake
 
-![Contribution Snake](https://raw.githubusercontent.com/prasangeet/prasangeet/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/prasangeet/prasangeet/blob/output/github-snake-dark.svg)
 
 > “Code is like humor. When you have to explain it, it’s bad.” – Cory House
