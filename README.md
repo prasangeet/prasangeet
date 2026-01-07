@@ -60,11 +60,6 @@
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=prasangeet&show_icons=true&theme=github_dark" />
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-neon-six-16.vercel.app?user=prasangeet&theme=dark" alt="GitHub Streak" /></a>
-</p>
-
-<p align="center">
   <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=prasangeet&theme=github-compact&area=true" />
 </p>
 
