@@ -58,6 +58,9 @@
 ---
 
 ### 📈 GitHub Stats
+<p align="center">
+  <img width="90%" src="https://commitpulse.vercel.app/api/streak?user=prasangeet" />
+</p>
 
 <p align="center">
   <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-neon-six-16.vercel.app?user=prasangeet&theme=dark" alt="GitHub Streak" /></a>
