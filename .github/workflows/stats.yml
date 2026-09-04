@@ -1,73 +1,37 @@
-name: Update GitHub Profile Stats
+name: Update GitHub Profile Metrics
 
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "17 1 * * *"
   workflow_dispatch:
   push:
     paths:
       - ".github/workflows/stats.yml"
-      - "README.md"
 
 jobs:
-  build:
+  metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v6
-
-      - name: Generate stats card (dark)
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Generate GitHub metrics
+        uses: lowlighter/metrics@latest
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&hide_border=true
-          path: profile/stats-dark.svg
+          user: prasangeet
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate stats card (light)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=default&hide_border=true
-          path: profile/stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate top languages card (dark)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=github_dark&hide_border=true
-          path: profile/top-langs-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate top languages card (light)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=default&hide_border=true
-          path: profile/top-langs-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate streak card (dark)
-        uses: zients/github-readme-streak-stats@v2
-        with:
-          options: user=${{ github.repository_owner }}&theme=dark&hide_border=true&disable_animations=true
-          path: profile/streak-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate streak card (light)
-        uses: zients/github-readme-streak-stats@v2
-        with:
-          options: user=${{ github.repository_owner }}&theme=default&hide_border=true&disable_animations=true
-          path: profile/streak-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit generated cards
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git commit -m "Update GitHub profile stats" || exit 0
-          git push
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: main
+          committer_message: "Update GitHub profile metrics"
+          filename: profile/github-metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          config_display: regular
+          config_animations: no
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_categories: programming
+          plugin_languages_details: percentage, lines
+          plugin_repositories: yes
+          plugin_repositories_pinned: 6
