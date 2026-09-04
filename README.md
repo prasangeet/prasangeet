@@ -171,13 +171,11 @@ ARAA became one of the foundations for my later interest in **agent orchestratio
 ## 🧰 Engineering Toolbox
 
 ### Languages
-
 <p>
   <img src="https://skillicons.dev/icons?i=python,cpp,rust,typescript,go,java,bash" alt="Languages" />
 </p>
 
 ### AI / ML
-
 <p>
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv" alt="AI and ML" />
 </p>
@@ -185,13 +183,11 @@ ARAA became one of the foundations for my later interest in **agent orchestratio
 `LangChain` · `LangGraph` · `RAG` · `Computer Vision` · `OCR` · `Reinforcement Learning` · `LLM Agents` · `Ollama`
 
 ### Web & Backend
-
 <p>
   <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,django,nestjs,nodejs,express,fastapi" alt="Web and Backend" />
 </p>
 
 ### Data & Infrastructure
-
 <p>
   <img src="https://skillicons.dev/icons?i=postgresql,mongodb,redis,docker,linux,git,github,nginx" alt="Data and Infrastructure" />
 </p>
@@ -199,7 +195,6 @@ ARAA became one of the foundations for my later interest in **agent orchestratio
 `Neo4j` · `Qdrant` · `REST APIs` · `WebSockets` · `Unix Sockets` · `CMake` · `WireGuard`
 
 ### Desktop / Native
-
 <p>
   <img src="https://skillicons.dev/icons?i=qt,cpp,rust,linux,electron" alt="Desktop and Native" />
 </p>
@@ -215,18 +210,18 @@ ARAA became one of the foundations for my later interest in **agent orchestratio
                 └────────────┬────────────┘
                              │
                 ┌────────────▼────────────┐
-                │      Application       │
-                │ APIs · Realtime · UX   │
+                │      Application        │
+                │ APIs · Realtime · UX    │
                 └────────────┬────────────┘
                              │
                 ┌────────────▼────────────┐
-                │        Systems         │
-                │ C++ · Rust · Linux     │
+                │        Systems          │
+                │ C++ · Rust · Linux      │
                 └────────────┬────────────┘
                              │
                 ┌────────────▼────────────┐
-                │   Scientific Domains   │
-                │ Process · ML · Research│
+                │   Scientific Domains    │
+                │ Process · ML · Research │
                 └─────────────────────────┘
 ```
 
@@ -237,15 +232,11 @@ The common thread across these projects is **turning ideas into working systems*
 ## 🧩 Limbo Corps
 
 <div align="center">
-
 <a href="https://github.com/Limbo-corps">
   <img src="https://img.shields.io/badge/LIMBO%20CORPS-Engineering%20%26%20AI-111827?style=for-the-badge&logo=github&logoColor=white" alt="Limbo Corps" />
 </a>
-
 <br />
-
 A space for building **AI systems, developer tools, infrastructure, and experimental software**.
-
 </div>
 
 ---
@@ -253,14 +244,10 @@ A space for building **AI systems, developer tools, infrastructure, and experime
 ## 🧠 LeetCode
 
 <div align="center">
-
 <a href="https://leetcode.com/u/prasangeet_dongre/">
   <img src="https://leetcard.jacoblin.cool/prasangeet_dongre?theme=dark&font=baloo&ext=heatmap" alt="Prasangeet's LeetCode Stats" />
 </a>
-
 </div>
-
-> The card is generated from the LeetCode profile and gives the README a compact snapshot of problem-solving activity.
 
 ---
 
@@ -268,35 +255,26 @@ A space for building **AI systems, developer tools, infrastructure, and experime
 
 <div align="center">
 
-<a href="https://github.com/prasangeet">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=prasangeet&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub Stats" />
-</a>
-<a href="https://github.com/prasangeet">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasangeet&layout=compact&hide_border=true&theme=transparent" alt="Top Languages" />
-</a>
-
-<br />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=prasangeet&hide_border=true&theme=transparent" alt="GitHub Streak" />
-
-<br />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=prasangeet&theme=github-compact&hide_border=true&area=true" alt="GitHub Activity Graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prasangeet/prasangeet/main/profile/github-metrics.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prasangeet/prasangeet/main/profile/github-metrics.svg">
+  <img src="https://raw.githubusercontent.com/prasangeet/prasangeet/main/profile/github-metrics.svg" alt="GitHub metrics, activity, repositories and languages" width="100%">
+</picture>
 
 </div>
+
+> Generated automatically by GitHub Actions, so the profile no longer depends on the broken third-party stats cards.
 
 ---
 
 ## 👾 Contribution Pac-Man
 
 <div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prasangeet/prasangeet/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prasangeet/prasangeet/output/pacman-contribution-graph.svg">
   <img src="https://raw.githubusercontent.com/prasangeet/prasangeet/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph" width="100%">
 </picture>
-
 </div>
 
 > Automatically regenerated by the repository's `pacman.yml` workflow.
