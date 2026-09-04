@@ -1,94 +1,275 @@
-<h1 align="center">Hi there 👋, I'm Prasangeet Dongre</h1>
-<h3 align="center">AI/ML Systems Engineer | Full-Stack Developer | B.Tech Chemical Engg. + AI Minor @ IIT Jodhpur</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=500&lines=Building+agentic+AI+systems+%26+full-stack+apps;LangGraph+%7C+Neo4j+%7C+Qdrant+%7C+Rust+%7C+Next.js;SURE%2726+Research+Intern+%40+IIT+Hyderabad" alt="Typing SVG" />
+# Prasangeet Dongre
+
+### AI Systems · Software Engineering · Applied Research
+
+Building intelligent software at the intersection of **LLMs, systems engineering, and scientific computing**.
+
+<p>
+  <a href="https://www.linkedin.com/in/prasangeetdongre01"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/prasangeetdongre1"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <a href="https://github.com/prasangeet"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
+
+</div>
+
+---
+
+## 👋 About
+
+I’m a **B.Tech Chemical Engineering student at IIT Jodhpur with a Minor in Artificial Intelligence**, interested in building software that combines strong engineering fundamentals with modern AI.
+
+My work spans several layers of the stack:
+
+- **AI systems** — LLM orchestration, RAG, agents, memory, tool use, vision pipelines
+- **Backend & distributed applications** — APIs, realtime systems, databases, caching, authentication
+- **Systems programming** — C++, Rust, Linux, networking, native applications
+- **Applied ML & scientific computing** — computer vision, deep learning, process modeling and reinforcement learning
+
+I enjoy projects where the difficult part is not just calling a model, but designing the **system around it**: data flow, state, memory, reliability, observability, and the interface between software components.
+
+Currently, I’m focused on **AI Engineering and SDE roles**, while continuing to explore systems programming and applied research.
+
+---
+
+## 🔬 Research
+
+### IIT Hyderabad — SURE'26
+**Research Intern · Global Optimization and Knowledge Unearthing Laboratory**
+
+Worked on a scientific-document intelligence workflow for extracting structured information from research papers.
+
+The pipeline combines:
+
+`PDF / Document Parsing → Layout Detection → OCR → Relationship Extraction → Figure Understanding`
+
+Technologies explored include **YOLO, Tesseract OCR, LaTeX OCR, vision-language models, Python, React, Vite, and Electron**.
+
+A major focus was extracting quantitative information from scientific figures, particularly **temperature vs. conversion/selectivity curves**, while preserving the experimental conditions, catalysts, promoters, captions, and relationships needed for downstream retrieval and analysis.
+
+---
+
+## 🚀 Featured Work
+
+### 🧠 ORION — Local-First AI Assistant
+**Rust · Python · LangGraph · Neo4j · Qdrant · MCP**
+
+A systems-oriented AI assistant designed around the idea that an assistant should be more than a chat interface.
+
+**Architecture highlights**
+
+- Rust terminal client for the interactive shell
+- Python runtime for orchestration and AI workflows
+- Async IPC over Unix sockets
+- LangGraph-based agent coordination
+- Neo4j for structured / relational memory
+- Qdrant for semantic retrieval
+- MCP-based tool integration
+- Modular services for memory, reasoning, execution, and observability
+
+> The goal is to build an assistant whose **state, memory, tools, and reasoning are explicit system components** rather than hidden behind a single model call.
+
+---
+
+### 🔎 Research Paper Data Extractor
+**Python · YOLO · OCR · Vision Models · React · Vite · Electron**
+
+A desktop research tool built during my IIT Hyderabad internship to turn unstructured scientific PDFs into structured, machine-readable research data.
+
+The system focuses on scientific figures and their surrounding context, including:
+
+- figure / chart detection
+- layout-region extraction
+- OCR and mathematical text extraction
+- figure-caption relationships
+- vision-model interpretation
+- extraction of plotted data and experimental conditions
+- structured outputs suitable for search and RAG pipelines
+
+---
+
+### 🗄️ LimboDB — Database Engine in C++
+**C++ · CMake · SQL · Storage Engines**
+
+A lightweight SQL database engine built from scratch as a systems project.
+
+Implemented components include:
+
+- SQL parsing and execution
+- record management
+- indexing
+- table catalogs
+- disk-based storage
+- memory management
+- debugging infrastructure
+
+This project is part of my interest in understanding software **below the application layer** — how databases, storage, and execution engines actually work.
+
+---
+
+### ♟️ Chess — Native C++ / Qt Application
+**C++17 · Qt 6 · CMake · QGraphicsView**
+
+A desktop chess application with a native GUI and a complete rules engine.
+
+Supports:
+
+- legal move validation
+- check / checkmate
+- stalemate
+- castling
+- en passant
+- pawn promotion
+- move highlighting
+- scalable board rendering
+
+A useful combination of **object-oriented design, graphics programming, game-state modeling, and rule validation**.
+
+---
+
+### 🎛️ TD3 PID Tuner
+**Python · PyTorch · Reinforcement Learning · Process Control**
+
+An applied RL project exploring automatic PID tuning for nonlinear process systems.
+
+The project reproduces and extends a TD3-based controller-tuning approach with techniques such as:
+
+- modified reward design using control-rate penalties
+- prioritized experience replay
+- curriculum learning
+- evaluation across multiple plant models
+- comparison against classical control behavior
+
+It sits directly at the intersection of my Chemical Engineering and AI background: **dynamic systems + control theory + reinforcement learning**.
+
+---
+
+### 🌐 NeutronVPN
+**Django · PostgreSQL · React · Electron · WireGuard · Paramiko**
+
+A full-stack VPN management system with a desktop client and remote server management.
+
+The project brings together:
+
+`WireGuard ↔ Django REST API ↔ PostgreSQL ↔ Electron/React Client ↔ SSH Infrastructure`
+
+with features for peer management, VPN configuration, connection statistics, and remote server administration.
+
+---
+
+### 📄 ARAA — Autonomous Research & Action Agent
+**Python · LangChain · Local LLMs · Ollama · RAG**
+
+An early exploration into autonomous research workflows: taking a high-level objective, decomposing it into tasks, searching for information, and synthesizing results through an agentic workflow.
+
+ARAA became one of the foundations for my later interest in **agent orchestration, tool use, memory, and research automation**.
+
+---
+
+## 🧰 Engineering Toolbox
+
+### Languages
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,cpp,rust,typescript,go,java" alt="Languages" />
+</p>
+
+### AI / ML
+
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" alt="AI ML" />
+</p>
+
+`LangChain` · `LangGraph` · `RAG` · `Computer Vision` · `OCR` · `Reinforcement Learning` · `LLM Agents`
+
+### Web & Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,django,nestjs,nodejs,express" alt="Web and Backend" />
+</p>
+
+### Data & Infrastructure
+
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,linux,git,github" alt="Data and Infrastructure" />
+</p>
+
+`Neo4j` · `Qdrant` · `REST APIs` · `WebSockets` · `Unix Sockets` · `CMake`
+
+---
+
+## 🧭 What I Like Building
+
+```text
+                ┌─────────────────────────┐
+                │      AI / Reasoning     │
+                │  LLMs · Agents · RAG    │
+                └────────────┬────────────┘
+                             │
+                ┌────────────▼────────────┐
+                │      Application       │
+                │ APIs · Realtime · UX   │
+                └────────────┬────────────┘
+                             │
+                ┌────────────▼────────────┐
+                │        Systems         │
+                │ C++ · Rust · Linux     │
+                └────────────┬────────────┘
+                             │
+                ┌────────────▼────────────┐
+                │   Scientific Domains   │
+                │ Process · ML · Research│
+                └─────────────────────────┘
+```
+
+The common thread across these projects is **turning ideas into working systems** — not just prototypes, but architectures that can be reasoned about, extended, and operated.
+
+---
+
+## 📊 GitHub
+
+<div align="center">
+
+<a href="https://github.com/prasangeet">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=prasangeet&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/prasangeet">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasangeet&layout=compact&hide_border=true&theme=transparent" alt="Top Languages" />
+</a>
+
+<br />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=prasangeet&hide_border=true&theme=transparent" alt="GitHub Streak" />
+
+</div>
+
+---
+
+## 🧩 Beyond the Projects
+
+I also maintain smaller projects and experiments across:
+
+`DSA` · `Computer Vision` · `NLP` · `Web Applications` · `Qt` · `Networking` · `Control Systems` · `Deep Learning` · `Developer Tooling`
+
+Some of these are deliberately small — they are experiments for learning a technology, testing an idea, or understanding an implementation from first principles.
+
+---
+
+## 📫 Contact
+
+I’m interested in **AI engineering, software engineering, systems, developer infrastructure, and applied research**.
+
+<p>
+  <a href="https://www.linkedin.com/in/prasangeetdongre01">LinkedIn</a> ·
+  <a href="https://leetcode.com/prasangeetdongre1">LeetCode</a> ·
+  <a href="https://github.com/prasangeet">GitHub</a>
 </p>
 
 ---
 
-### 🙋‍♂️ About Me
+<div align="center">
 
-- 🎓 B.Tech in Chemical Engineering, Minor in AI @ **IIT Jodhpur** (CGPA 8.60)
-- 🔬 Research Intern @ **IIT Hyderabad SURE'26**, under Prof. Kishalay Mitra — built a document-processing pipeline (YOLO, Tesseract OCR, LaTeX OCR) for 100+ scientific papers
-- 🧠 Currently building **ORION**, a local-first AI assistant with a Rust terminal client, Python runtime, and LangGraph + Neo4j + Qdrant for memory and agent coordination
-- 💼 Repositioning toward **SDE / AI Engineering** roles — LLM pipelines, agentic architectures, full-stack scientific applications
-- 📫 Reach me: [LinkedIn](https://www.linkedin.com/in/prasangeetdongre01) · [LeetCode](https://leetcode.com/prasangeetdongre1)
+### Build systems. Understand the fundamentals. Then make them intelligent.
 
----
-
-### 🛠️ Tech Stack
-
-#### 👨‍💻 Languages
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
-
-#### 🎨 Frontend
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-#### 🖥 Backend
-![Django](https://img.shields.io/badge/-Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/-Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-
-#### 🧠 AI / ML
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
-
-#### 💾 Data & Infra
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Neo4j](https://img.shields.io/badge/-Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
----
-
-### 🚀 Featured Projects
-
-- **[ORION](https://github.com/prasangeet/orion)** — Local-first AI assistant: Rust terminal client + Python runtime, async IPC over Unix sockets, LangGraph/Neo4j/Qdrant/MCP across 10+ services for memory, tool execution, and agent coordination.
-- **CollabDocs** — Collaborative document editor with Operational Transformation over Socket.IO, sub-50ms sync at 100+ concurrent clients; optimized Postgres indexing cut latency 40%.
-- **CampusConnect** — Campus platform with JWT auth, RBAC, live messaging via Django Channels + Redis, 25+ REST endpoints, 40% less DB traffic through caching.
-- **Research Paper Data Extractor** (SURE'26, IIT Hyderabad) — YOLO + Tesseract/LaTeX OCR pipeline processing 100+ papers, 2,000+ layout regions, Gemma/Gemini vision models inside a React + Vite + Electron desktop app.
-
----
-
-### 📈 GitHub Stats
-
-<p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-neon-six-16.vercel.app?user=prasangeet&theme=dark" alt="GitHub Streak" /></a>
-</p>
-
-<p align="center">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=prasangeet&theme=github-compact&area=true" />
-</p>
-
----
-
-### 👻 Pac-Man Contribution Graph
-
-<!-- pacman -->
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prasangeet/prasangeet/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prasangeet/prasangeet/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/prasangeet/prasangeet/output/pacman-contribution-graph.svg">
-</picture>
-
----
-
-### 🔗 Connect With Me
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/prasangeetdongre01" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-</p>
-
-> "Code is like humor. When you have to explain it, it's bad." – Cory House
+</div>
