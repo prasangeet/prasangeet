@@ -255,15 +255,11 @@ A space for building **AI systems, developer tools, infrastructure, and experime
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prasangeet/prasangeet/main/profile/github-metrics.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prasangeet/prasangeet/main/profile/github-metrics.svg">
-  <img src="https://raw.githubusercontent.com/prasangeet/prasangeet/main/profile/github-metrics.svg" alt="GitHub metrics, activity, repositories and languages" width="100%">
-</picture>
+<a href="https://github.com/prasangeet">
+  <img src="https://ghstats.dev/api/card?username=prasangeet&theme=midnight&size=compact&hide_border=true&show_icons=true" alt="Prasangeet's GitHub Stats" />
+</a>
 
 </div>
-
-> Generated automatically by GitHub Actions, so the profile no longer depends on the broken third-party stats cards.
 
 ---
 
