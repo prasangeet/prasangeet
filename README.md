@@ -8,8 +8,9 @@ Building intelligent software at the intersection of **LLMs, systems engineering
 
 <p>
   <a href="https://www.linkedin.com/in/prasangeetdongre01"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://leetcode.com/prasangeetdongre1"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <a href="https://leetcode.com/u/prasangeet_dongre/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
   <a href="https://github.com/prasangeet"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/Limbo-corps"><img src="https://img.shields.io/badge/Limbo%20Corps-Organization-8A2BE2?style=flat-square&logo=github&logoColor=white" alt="Limbo Corps" /></a>
 </p>
 
 </div>
@@ -172,30 +173,36 @@ ARAA became one of the foundations for my later interest in **agent orchestratio
 ### Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,rust,typescript,go,java" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,rust,typescript,go,java,bash" alt="Languages" />
 </p>
 
 ### AI / ML
 
 <p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" alt="AI ML" />
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv" alt="AI and ML" />
 </p>
 
-`LangChain` · `LangGraph` · `RAG` · `Computer Vision` · `OCR` · `Reinforcement Learning` · `LLM Agents`
+`LangChain` · `LangGraph` · `RAG` · `Computer Vision` · `OCR` · `Reinforcement Learning` · `LLM Agents` · `Ollama`
 
 ### Web & Backend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,django,nestjs,nodejs,express" alt="Web and Backend" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,django,nestjs,nodejs,express,fastapi" alt="Web and Backend" />
 </p>
 
 ### Data & Infrastructure
 
 <p>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,linux,git,github" alt="Data and Infrastructure" />
+  <img src="https://skillicons.dev/icons?i=postgresql,mongodb,redis,docker,linux,git,github,nginx" alt="Data and Infrastructure" />
 </p>
 
-`Neo4j` · `Qdrant` · `REST APIs` · `WebSockets` · `Unix Sockets` · `CMake`
+`Neo4j` · `Qdrant` · `REST APIs` · `WebSockets` · `Unix Sockets` · `CMake` · `WireGuard`
+
+### Desktop / Native
+
+<p>
+  <img src="https://skillicons.dev/icons?i=qt,cpp,rust,linux,electron" alt="Desktop and Native" />
+</p>
 
 ---
 
@@ -227,6 +234,36 @@ The common thread across these projects is **turning ideas into working systems*
 
 ---
 
+## 🧩 Limbo Corps
+
+<div align="center">
+
+<a href="https://github.com/Limbo-corps">
+  <img src="https://img.shields.io/badge/LIMBO%20CORPS-Engineering%20%26%20AI-111827?style=for-the-badge&logo=github&logoColor=white" alt="Limbo Corps" />
+</a>
+
+<br />
+
+A space for building **AI systems, developer tools, infrastructure, and experimental software**.
+
+</div>
+
+---
+
+## 🧠 LeetCode
+
+<div align="center">
+
+<a href="https://leetcode.com/u/prasangeet_dongre/">
+  <img src="https://leetcard.jacoblin.cool/prasangeet_dongre?theme=dark&font=baloo&ext=heatmap" alt="Prasangeet's LeetCode Stats" />
+</a>
+
+</div>
+
+> The card is generated from the LeetCode profile and gives the README a compact snapshot of problem-solving activity. citeturn842063search2turn842063search5
+
+---
+
 ## 📊 GitHub
 
 <div align="center">
@@ -241,6 +278,10 @@ The common thread across these projects is **turning ideas into working systems*
 <br />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=prasangeet&hide_border=true&theme=transparent" alt="GitHub Streak" />
+
+<br />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=prasangeet&theme=github-compact&hide_border=true&area=true" alt="GitHub Activity Graph" />
 
 </div>
 
@@ -262,8 +303,9 @@ I’m interested in **AI engineering, software engineering, systems, developer i
 
 <p>
   <a href="https://www.linkedin.com/in/prasangeetdongre01">LinkedIn</a> ·
-  <a href="https://leetcode.com/prasangeetdongre1">LeetCode</a> ·
-  <a href="https://github.com/prasangeet">GitHub</a>
+  <a href="https://leetcode.com/u/prasangeet_dongre/">LeetCode</a> ·
+  <a href="https://github.com/prasangeet">GitHub</a> ·
+  <a href="https://github.com/Limbo-corps">Limbo Corps</a>
 </p>
 
 ---
